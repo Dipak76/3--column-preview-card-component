@@ -1,0 +1,38 @@
+.col-3{
+    display: flex;
+    
+}
+.col-1{
+    flex: 33.3%;
+    background-color: rgb(139, 83, 192);
+}
+.col-2{
+    flex: 33.3%;
+    background-color: rgb(77, 168, 138);
+}
+.col-4{
+    flex:33.3%;
+    background-color: rgb(161, 161, 51);
+}
+.logo{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 25px;
+    margin-left:30% ;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    padding: 4px 10px 4px 10px;
+
+    
+    background-color: green;
+}
+.col-1,.col-2,.col-4{
+
+    font-size: 200%;
+}
+img,h1,p{
+    margin-left: 30px;
+}
+.logo:hover{
+    background-color: rosybrown;
+}
